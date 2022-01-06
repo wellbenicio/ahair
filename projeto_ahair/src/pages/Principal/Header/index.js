@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from '../../../components/Navbar/index'
+import Serviços from './Serviços/index'
+
 const index = () => {
     return (
         <div>
-            <Navbar />
             <div>
                 <img></img>
             </div>
@@ -20,14 +20,14 @@ const index = () => {
                 <button>Agendar horário</button>
             </div>
             <div>
-                <Profissionais />
-                <Profissionais />
-                <Profissionais />
-                <Profissionais />
-                <Profissionais />
-                <Profissionais />
-                <Profissionais />
-                <Profissionais />
+                <Serviços />
+                <Serviços />
+                <Serviços />
+                <Serviços />
+                <Serviços />
+                <Serviços />
+                <Serviços />
+                <Serviços />
                 <div>
                     <p>Ver todos</p>
                     <img src={} alt={}/>
